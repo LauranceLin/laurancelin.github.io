@@ -35,6 +35,12 @@
 {{- $options = dict "Context" . "ToCSS" $toCSS | merge $options -}}
 {{- partial "plugin/style.html" $options -}}
 
+{{- /* Google Fonts: Source Sans Pro & Athelas */ -}}
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?\
+family=Source+Sans+Pro:wght@400;600;700&\
+family=Athelas&display=swap">
+
 {{- /* Font Awesome */ -}}
 {{- $source := $cdn.fontawesomeFreeCSS | default "lib/fontawesome-free/css/all.min.css" -}}
 {{- $options := dict "Source" $source "Fingerprint" $fingerprint "Preload" true -}}

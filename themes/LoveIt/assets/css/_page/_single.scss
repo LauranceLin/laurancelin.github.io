@@ -2,6 +2,7 @@
 
 .single {
   .single-title {
+    font-family: var(--header-title-font-family);
     margin: 2rem 0 .5rem;
     font-size: 1.6rem;
     font-weight: bold;
@@ -9,6 +10,7 @@
   }
 
   .single-subtitle {
+    font-family: var(--header-title-font-family);
     margin: .5rem 0;
     font-size: 1.2rem;
     font-weight: normal;
@@ -16,6 +18,7 @@
   }
 
   .post-meta {
+    font-family: var(--header-title-font-family);
     font-size: .875rem;
     color: $global-font-secondary-color;
 
@@ -88,6 +91,7 @@
     h4,
     h5,
     h6 {
+      font-family: var(--header-title-font-family);
       font-weight: bold;
       margin: 1.2rem 0;
 
@@ -96,25 +100,25 @@
       }
     }
 
-    > h2,
-    > h3,
-    > h4,
-    > h5,
-    > h6 {
-      > .header-mark::before {
-        content: "|";
-        margin-right: .3125rem;
-        color: $single-link-color;
+    // > h2,
+    // > h3,
+    // > h4,
+    // > h5,
+    // > h6 {
+    //   > .header-mark::before {
+    //     content: "|";
+    //     margin-right: .3125rem;
+    //     color: $single-link-color;
 
-        [theme=dark] & {
-          color: $single-link-color-dark;
-        }
-      }
-    }
+    //     [theme=dark] & {
+    //       color: $single-link-color-dark;
+    //     }
+    //   }
+    // }
 
-    > h2 > .header-mark::before {
-      content: "#";
-    }
+    // > h2 > .header-mark::before {
+    //   content: "#";
+    // }
 
     p {
       margin: .5rem 0;

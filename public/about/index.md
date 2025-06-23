@@ -1,3 +1,3 @@
-# About Laurance Lin
+# About Me
 
 

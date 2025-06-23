@@ -1,5 +1,5 @@
 ---
-title: "關於 Laurance Lin"
+title: "關於我"
 date: 2025-06-23T11:04:49+08:00
 draft: false
 description: "關於 Laurance Lin"
