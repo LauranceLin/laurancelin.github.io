@@ -59,7 +59,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   images = ["/logo.png"]  # website images for Open Graph and Twitter Cards
 
   [params.author]
-    name = "Laurance Lin"
+    name = "Laurance C. Lin"
     email = ""
     link = ""
 
@@ -77,10 +77,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.footer]
     enable = true
     custom = "" # Custom content (HTML format is supported)
-    hugo = true 
+    hugo = false 
     copyright = true
     author = true
-    # since = 2025
+    since = 2025
     icp = ""  # ICP info only in China (HTML format is supported)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
@@ -244,7 +244,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://valine.hugoloveit.com"
+        serverURLs = ""
         # emoji data file name, default is "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
         # located in "themes/LoveIt/assets/lib/valine/emoji/" directory
@@ -301,7 +301,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       
       [params.page.comment.waline]  # Waline comment config (https://waline.js.org/)
         enable = false
-        serverURL = "https://love-it-waline.vercel.app"
+        serverURL = ""
         # automatically adapt the current theme i18n configuration when empty
         lang = ""
         emoji = ["https://unpkg.com/@waline/emojis@1.0.1/tw-emoji"]
@@ -467,6 +467,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.en.menu.main]]
         weight = 4
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Docs"
+        url = "/categories/documentation/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 5
         identifier = "about"
         pre = ""
         post = ""
@@ -499,8 +507,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "LauranceLin"
         Email = "b11705050@ntu.edu.tw"
+        Linkedin = "LauranceLin"
+        GitHub = "LauranceLin"
         RSS = true
 
   [languages.zh-tw]
@@ -536,6 +545,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.zh-tw.menu.main]]
         weight = 4
+        identifier = "documentation"
+        pre = ""
+        name = "文件"
+        url = "/categories/documentation/"
+        title = ""
+      [[languages.zh-tw.menu.main]]
+        weight = 5
         identifier = "about"
         pre = ""
         post = ""
@@ -568,6 +584,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.zh-tw.params.social]
-        GitHub = "LauranceLin"
         Email = "b11705050@ntu.edu.tw"
+        Linkedin = "LauranceLin"
+        GitHub = "LauranceLin"
         RSS = true
