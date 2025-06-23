@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文件 on Laurance Lin</title>
+    <link>https://laurancelin.github.io/zh-tw/categories/documentation/</link>
+    <description>Recent content in 文件 on Laurance Lin</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <atom:link href="https://laurancelin.github.io/zh-tw/categories/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>科技巨擘的博弈：Google、反壟斷法與生成式 AI</title>
+      <link>https://laurancelin.github.io/zh-tw/google_and_antitrust_law/</link>
+      <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://laurancelin.github.io/zh-tw/google_and_antitrust_law/</guid>
+      <description>&lt;p&gt;今年 5 月 21 日，Google 執行長桑德爾·皮查伊（Sundar Pichai）在年度開發者大會「Google I/O 2025」上公布了多項 AI 領域的重大進展。除了發布 Gemini 2.5、Veo 3、Imagen 4 等關鍵模型的升級版本以外，Google 也正式宣示將 AI 深度整合進既有核心服務，如導入 AI 模式的 Google 搜尋，以及強化 Gmail 中的個人化智慧回覆功能等。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
