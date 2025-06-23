@@ -1,0 +1,44 @@
+name: Deploy Hugo site to GitHub Pages # 這個工作流程的名稱
+
+on:
+  push:
+    branches:
+      - main # 當有新的程式碼被推送到 'main' 分支時觸發這個工作流程
+
+# 定義工作流程所需的權限
+permissions:
+  contents: write # 允許寫入到儲存庫，以便 Hugo 進行建置
+  pages: write    # 允許部署到 GitHub Pages
+  id-token: write # 這是 GitHub Actions 部署到 Pages 所需的身份驗證權限
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages # 定義一個名為 'github-pages' 的部署環境
+      url: ${{ steps.deployment.outputs.page_url }} # 自動設定環境的 URL 為 Pages 的網址
+    runs-on: ubuntu-latest # 這個任務將在最新的 Ubuntu 虛擬機上運行
+
+    steps:
+      - name: Checkout Code # 步驟 1: 下載您的儲存庫程式碼
+        uses: actions/checkout@v4
+        with:
+          submodules: false # 設為 false，因為您是直接複製 LoveIt 主題，沒有用 submodule
+          fetch-depth: 0    # 獲取所有 Git 歷史記錄，有助於一些 Hugo 功能
+
+      - name: Setup Hugo # 步驟 2: 設定 Hugo 環境
+        uses: peaceiris/actions-hugo@v3 # 使用 peaceiris 提供的 Hugo Actions
+        with:
+          hugo-version: 'latest' # 使用最新版本的 Hugo
+          extended: true # 使用 Sass/SCSS 或 Extended 版本的功能
+
+      - name: Build Hugo site # 步驟 3: 建置您的 Hugo 網站
+        run: hugo --minify # 運行 Hugo 建置命令，--minify 可以壓縮輸出檔案
+
+      - name: Upload artifact # 步驟 4: 上傳建置好的靜態檔案
+        uses: actions/upload-pages-artifact@v3 # 使用 GitHub 官方的 Action 來上傳建置結果
+        with:
+          path: ./public # 指定 Hugo 建置後輸出的目錄 (預設是 public)
+
+      - name: Deploy to GitHub Pages # 步驟 5: 部署網站到 GitHub Pages
+        id: deployment # 給這個步驟一個 ID，以便後續引用其輸出
+        uses: actions/deploy-pages@v4 # 使用 GitHub 官方的 Action 來部署 Pages
