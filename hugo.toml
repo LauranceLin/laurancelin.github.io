@@ -507,7 +507,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "https://github.io/LauranceLin"
+        GitHub = "LauranceLin"
         Email = "b11705050@ntu.edu.tw"
         RSS = true
 
@@ -583,6 +583,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.zh-tw.params.social]
-        GitHub = "https://github.io/LauranceLin"
+        GitHub = "LauranceLin"
         Email = "b11705050@ntu.edu.tw"
         RSS = true
