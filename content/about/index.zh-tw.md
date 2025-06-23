@@ -1,8 +1,8 @@
 ---
-title: "About Laurance Lin"
+title: "關於 Laurance Lin"
 date: 2025-06-23T11:04:49+08:00
 draft: false
-description: "About Laurance Lin"
+description: "關於 Laurance Lin"
 images: [""]
 
 lightgallery: true
@@ -10,3 +10,4 @@ lightgallery: true
 math:
   enable: true
 ---
+
