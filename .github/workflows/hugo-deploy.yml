@@ -31,9 +31,17 @@ jobs:
           hugo-version: 'latest' # 使用最新版本的 Hugo
           extended: true # 使用 Sass/SCSS 或 Extended 版本的功能
 
-      - name: Push Algolia Index
-        uses: aoudiamoncef/hugo-algolia-uploader@main
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
+          node-version: '18'
+
+      - name: Install Hugo-Algolia
+        run: npm install --no-save hugo-algolia
+
+      - name: Push Algolia Index
+        run: npx hugo-algolia --toml
+        env:
           appID: ${{ secrets.ALGOLIA_APP_ID }}
           apiKey: ${{ secrets.ALGOLIA_WRITE_KEY }}
           indexName: ${{ secrets.ALGOLIA_INDEX_NAME }}
