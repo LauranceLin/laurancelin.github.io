@@ -39,6 +39,9 @@ jobs:
       - name: Install Hugo-Algolia
         run: npm install --no-save hugo-algolia
 
+      - name: Mirror Hugo config for hugo-algolia
+        run: cp hugo.toml config.toml
+
       - name: Push Algolia Index
         run: npx hugo-algolia --toml
         env:
