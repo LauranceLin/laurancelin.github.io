@@ -451,14 +451,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.en.menu.main]]
         weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 3
         identifier = "categories"
         pre = ""
         post = ""
@@ -466,15 +458,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/categories/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
+        weight = 3
         identifier = "about"
         pre = ""
         post = ""
@@ -501,7 +485,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          title = "Laurance Chih-Hsiang Lin"
+          title = "Laurance C. Lin"
           subtitle = "Information Technology | Business Economics | Quantitative Finance"
           typeit = true
           social = true
@@ -529,14 +513,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.zh-tw.menu.main]]
         weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "標籤"
-        url = "/tags/"
-        title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 3
         identifier = "categories"
         pre = ""
         post = ""
@@ -544,14 +520,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/categories/"
         title = ""
       [[languages.zh-tw.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "文件"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 5
+        weight = 3
         identifier = "about"
         pre = ""
         post = ""
@@ -578,8 +547,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          title = "Laurance Chih-Hsiang Lin"
-          subtitle = "資訊科技 | 商業經濟 | 計量金融"
+          title = "Laurance C. Lin"
+          subtitle = "資訊科技 | 商業經濟 | 量化金融"
           typeit = true
           social = true
           disclaimer = ""

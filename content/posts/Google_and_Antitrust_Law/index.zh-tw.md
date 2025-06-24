@@ -12,8 +12,8 @@ resources:
 - name: "featured-image"
   src: "image.png"
 
-tags: ["Google"]
-categories: ["documentation"]
+tags: ["人工智慧", "生成式 AI", "大型語言模型", "反壟斷"]
+categories: ["POV"]
 
 lightgallery: true
 
