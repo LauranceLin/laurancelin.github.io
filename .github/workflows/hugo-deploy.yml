@@ -31,23 +31,17 @@ jobs:
           hugo-version: 'latest' # 使用最新版本的 Hugo
           extended: true # 使用 Sass/SCSS 或 Extended 版本的功能
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Install Hugo-Algolia
-        run: npm install --no-save hugo-algolia
-
-      - name: Push Algolia Index
-        run: npx hugo-algolia -s --toml  --config hugo.toml
-        env:
-          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
-          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_WRITE_KEY }}
-          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
-
       - name: Build Hugo site # 步驟 3: 建置您的 Hugo 網站
         run: hugo --minify # 運行 Hugo 建置命令，--minify 可以壓縮輸出檔案
+
+      - name: Generate & Push Algolia Index
+        uses: caibingcheng/hugo-algolia2@v1
+        with:
+          input:  "./public/**/*.html" 
+          output: "./public/algolia.json"
+          index: ${{ secrets.ALGOLIA_INDEX_NAME }}
+          apikey: ${{ secrets.ALGOLIA_WRITE_KEY }}
+          appid:  ${{ secrets.ALGOLIA_APP_ID }}
 
       - name: Upload artifact # 步驟 4: 上傳建置好的靜態檔案
         uses: actions/upload-pages-artifact@v3 # 使用 GitHub 官方的 Action 來上傳建置結果
