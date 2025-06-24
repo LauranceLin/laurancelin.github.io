@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://laurancelin.github.io/sitemap.xml
+Sitemap: http://localhost:63855/sitemap.xml
