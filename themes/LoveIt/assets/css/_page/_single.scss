@@ -2,7 +2,6 @@
 
 .single {
   .single-title {
-    font-family: var(--header-title-font-family);
     margin: 2rem 0 .5rem;
     font-size: 1.6rem;
     font-weight: bold;
@@ -10,7 +9,6 @@
   }
 
   .single-subtitle {
-    font-family: var(--header-title-font-family);
     margin: .5rem 0;
     font-size: 1.2rem;
     font-weight: normal;
@@ -18,7 +16,6 @@
   }
 
   .post-meta {
-    font-family: var(--header-title-font-family);
     font-size: .875rem;
     color: $global-font-secondary-color;
 
@@ -53,7 +50,7 @@
     }
   }
 
-  .content {
+  .content, .post-content {
     line-height: 1.6 !important;
 
     > h2 {
@@ -93,7 +90,7 @@
     h4,
     h5,
     h6 {
-      font-family: var(--header-title-font-family);
+      font-family: var(--global-font-family);
       font-weight: bold;
       margin: 1.2rem 0;
 
@@ -320,6 +317,10 @@
         border-radius: 50%;
       }
     }
+  }
+
+  .post-content {
+    font-family: var(--content-font-family);
   }
 
   @import "../_partial/_single/footer";

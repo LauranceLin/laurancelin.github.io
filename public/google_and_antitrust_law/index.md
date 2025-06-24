@@ -1,6 +1,8 @@
 # The Tech Giant's Gambit: Google, Antitrust Law, and Generative AI
 
 
+This article was originally published on [Medium](https://medium.com/@laurance0410/the-tech-giants-gambit-google-antitrust-law-and-generative-ai-554249ad922f).
+
 On May 21st this year, Google CEO Sundar Pichai announced several significant advancements in AI at the annual developer conference, "Google I/O 2025." In addition to releasing upgraded versions of key models like Gemini 2.5, Veo 3, and Imagen 4, Google officially declared its deep integration of AI into existing core services, such as introducing AI-powered Google Search and enhancing personalized smart reply features in Gmail.
 
 Since OpenAI launched GPT-3.5 in 2022, **large language models (LLMs)** have begun to permeate every aspect of our lives. However, as technology rapidly advances, a question might emerge in everyone's mind: In the foreseeable future, will tech giants like Google leverage their vast capital and market advantages to **further monopolize AI development** and subtly stifle innovation? And as AI permeates every corner of our lives, will our freedom of information choice and decision-making be subject to the potential control of these companies?

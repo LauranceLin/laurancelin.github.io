@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "The Tech Giant's Gambit: Google, Antitrust Law, and Generative AI"
-date: 2025-06-22
-lastmod: 2025-06-23
+date: 2025-06-23
+lastmod: 2025-06-24
 draft: false
 author: "Laurance Lin"
 authorLink: "https://laurancelin.github.io/"
@@ -20,6 +20,8 @@ lightgallery: true
 toc:
   auto: false
 ---
+
+This article was originally published on [Medium](https://medium.com/@laurance0410/the-tech-giants-gambit-google-antitrust-law-and-generative-ai-554249ad922f).
 
 On May 21st this year, Google CEO Sundar Pichai announced several significant advancements in AI at the annual developer conference, "Google I/O 2025." In addition to releasing upgraded versions of key models like Gemini 2.5, Veo 3, and Imagen 4, Google officially declared its deep integration of AI into existing core services, such as introducing AI-powered Google Search and enhancing personalized smart reply features in Gmail.
 

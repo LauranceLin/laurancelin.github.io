@@ -26,7 +26,6 @@
     }
 
     .home-title {
-      font-family: var(--header-title-font-family);
       font-size: 1.25rem;
       font-weight: bold;
       margin: 0;
@@ -34,7 +33,6 @@
     }
 
     .home-subtitle {
-      font-family: var(--header-title-font-family);
       font-size: 1rem;
       font-weight: normal;
       margin: 0;
@@ -56,7 +54,6 @@
     }
 
     .home-disclaimer {
-      font-family: var(--header-title-font-family);
       font-size: 1rem;
       line-height: 1.5rem;
       font-weight: normal;
@@ -82,7 +79,6 @@
   }
 
   .summary {
-    font-family: var(--header-title-font-family);
     padding-top: 1rem;
     padding-bottom: .8rem;
     color: $global-font-color;
