@@ -37,8 +37,8 @@ jobs:
       - name: Generate & Push Algolia Index
         uses: caibingcheng/hugo-algolia2@v1
         with:
-          input:  "./content/posts/**"
-          strip-prefix: "content/posts"
+          input: "./content/posts/**"
+          uri: ":slug/"
           output: "./public/algolia.json"
           index: ${{ secrets.ALGOLIA_INDEX_NAME }}
           apikey: ${{ secrets.ALGOLIA_WRITE_KEY }}
