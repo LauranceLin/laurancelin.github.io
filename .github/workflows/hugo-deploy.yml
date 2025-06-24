@@ -31,6 +31,13 @@ jobs:
           hugo-version: 'latest' # 使用最新版本的 Hugo
           extended: true # 使用 Sass/SCSS 或 Extended 版本的功能
 
+      - name: Push Algolia Index
+        uses: rishimagal/hugo-algolia-action@v1
+        with:
+          appID: ${{ secrets.ALGOLIA_APP_ID }}
+          apiKey: ${{ secrets.ALGOLIA_WRITE_KEY }}
+          indexName: ${{ secrets.ALGOLIA_INDEX_NAME }}
+
       - name: Build Hugo site # 步驟 3: 建置您的 Hugo 網站
         run: hugo --minify # 運行 Hugo 建置命令，--minify 可以壓縮輸出檔案
 
