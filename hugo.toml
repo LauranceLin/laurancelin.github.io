@@ -10,7 +10,7 @@ hasCJKLanguage = false
 copyright = ""  # copyright description used only for SEO schema
 
 enableRobotsTXT = true
-enableGitInfo = true
+enableGitInfo = false
 enableEmoji = true
 
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
