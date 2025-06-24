@@ -105,17 +105,17 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.search]
     enable = true
-    type = "algolia"  # type of search engine ["lunr", "algolia"]
+    type = "lunr"  # type of search engine ["lunr", "algolia"]
     contentLength = 4000  # max index length of the chunked content
     placeholder = "Search"
     maxResultLength = 10
     snippetLength = 30
     highlightTag = "strong"
     absoluteURL = false
-    [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+    # [params.search.algolia]
+    #   index = ""
+    #   appID = ""
+    #   searchKey = ""
 
   [params.home]
     rss = 10
@@ -468,17 +468,17 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [languages.en.params]
       [languages.en.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
         placeholder = "Search"
         maxResultLength = 10
         snippetLength = 30
         highlightTag = "strong"
         absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "laurancelin.github.io"
-          appID = "A6UBH15PNQ"
-          searchKey = "653d25e2144870bdd7516c6cff4550cc"
+        # [languages.en.params.search.algolia]
+        #   index = ""
+        #   appID = ""
+        #   searchKey = ""
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
@@ -538,10 +538,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         snippetLength = 50
         highlightTag = "strong"
         absoluteURL = false
-        [languages.zh-tw.params.search.algolia]
-          index = "laurancelin.github.io"
-          appID = "A6UBH15PNQ"
-          searchKey = "653d25e2144870bdd7516c6cff4550cc"
+        # [languages.zh-tw.params.search.algolia]
+        #   index = ""
+        #   appID = ""
+        #   searchKey = ""
       [languages.zh-tw.params.home]
         rss = 10
         [languages.zh-tw.params.home.profile]

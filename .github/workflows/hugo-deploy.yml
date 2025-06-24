@@ -34,16 +34,6 @@ jobs:
       - name: Build Hugo site # 步驟 3: 建置您的 Hugo 網站
         run: hugo --gc --cleanDestinationDir --minify # 運行 Hugo 建置命令，--minify 可以壓縮輸出檔案
 
-      - name: Generate & Push Algolia Index
-        uses: caibingcheng/hugo-algolia2@v1
-        with:
-          input: "./content/posts/**"
-          uri: ":slug/"
-          output: "./public/algolia.json"
-          index: ${{ secrets.ALGOLIA_INDEX_NAME }}
-          apikey: ${{ secrets.ALGOLIA_WRITE_KEY }}
-          appid:  ${{ secrets.ALGOLIA_APP_ID }}
-
       - name: Upload artifact # 步驟 4: 上傳建置好的靜態檔案
         uses: actions/upload-pages-artifact@v3 # 使用 GitHub 官方的 Action 來上傳建置結果
         with:
