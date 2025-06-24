@@ -32,7 +32,7 @@ jobs:
           extended: true # 使用 Sass/SCSS 或 Extended 版本的功能
 
       - name: Push Algolia Index
-        uses: rishimagal/hugo-algolia-action@v1
+        uses: aoudiamoncef/hugo-algolia-uploader@main
         with:
           appID: ${{ secrets.ALGOLIA_APP_ID }}
           apiKey: ${{ secrets.ALGOLIA_WRITE_KEY }}
