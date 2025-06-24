@@ -42,9 +42,9 @@ jobs:
       - name: Push Algolia Index
         run: npx hugo-algolia --toml  --config hugo.toml
         env:
-          appID: ${{ secrets.ALGOLIA_APP_ID }}
-          apiKey: ${{ secrets.ALGOLIA_WRITE_KEY }}
-          indexName: ${{ secrets.ALGOLIA_INDEX_NAME }}
+          HUGO_ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          HUGO_ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_WRITE_KEY }}
+          HUGO_ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
 
       - name: Build Hugo site # 步驟 3: 建置您的 Hugo 網站
         run: hugo --minify # 運行 Hugo 建置命令，--minify 可以壓縮輸出檔案
