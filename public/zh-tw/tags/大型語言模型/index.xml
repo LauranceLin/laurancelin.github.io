@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>大型語言模型 on Laurance Lin</title>
-    <link>http://localhost:56910/zh-tw/tags/%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/</link>
+    <link>https://laurancelin.github.io/zh-tw/tags/%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/</link>
     <description>Recent content in 大型語言模型 on Laurance Lin</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 24 Jun 2025 17:12:04 +0800</lastBuildDate>
-    <atom:link href="http://localhost:56910/zh-tw/tags/%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://laurancelin.github.io/zh-tw/tags/%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>科技巨擘的博弈：Google、反壟斷法與生成式 AI</title>
-      <link>http://localhost:56910/zh-tw/google_and_antitrust_law/</link>
+      <link>https://laurancelin.github.io/zh-tw/google_and_antitrust_law/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56910/zh-tw/google_and_antitrust_law/</guid>
+      <guid>https://laurancelin.github.io/zh-tw/google_and_antitrust_law/</guid>
       <description>&lt;p&gt;今年 5 月 21 日，Google 執行長桑德爾·皮查伊（Sundar Pichai）在年度開發者大會「Google I/O 2025」上公布了多項 AI 領域的重大進展。除了發布 Gemini 2.5、Veo 3、Imagen 4 等關鍵模型的升級版本以外，Google 也正式宣示將 AI 深度整合進既有核心服務，如導入 AI 模式的 Google 搜尋，以及強化 Gmail 中的個人化智慧回覆功能等。&lt;/p&gt;</description>
     </item>
   </channel>

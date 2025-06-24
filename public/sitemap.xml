@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:56910/en/sitemap.xml</loc>
+    <loc>https://laurancelin.github.io/en/sitemap.xml</loc>
     
       <lastmod>2025-06-24T17:34:13+08:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:56910/zh-tw/sitemap.xml</loc>
+    <loc>https://laurancelin.github.io/zh-tw/sitemap.xml</loc>
     
       <lastmod>2025-06-24T17:34:13+08:00</lastmod>
     

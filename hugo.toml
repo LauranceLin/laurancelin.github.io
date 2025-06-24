@@ -473,12 +473,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         placeholder = "Search"
         maxResultLength = 10
         snippetLength = 30
-        highlightTag = "em"
+        highlightTag = "strong"
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "index"
-          appID = "4D1IDY8JU6"
-          searchKey = "05332ac5ed76655a511f0da583a9afac"
+          index = "laurancelin.github.io"
+          appID = "A6UBH15PNQ"
+          searchKey = "653d25e2144870bdd7516c6cff4550cc"
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
@@ -536,12 +536,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         placeholder = "搜尋"
         maxResultLength = 10
         snippetLength = 50
-        highlightTag = "em"
+        highlightTag = "strong"
         absoluteURL = false
         [languages.zh-tw.params.search.algolia]
-          index = "index"
-          appID = "GZT24PWKNT"
-          searchKey = "634ab679e825b815de2663de38908f9d"
+          index = "laurancelin.github.io"
+          appID = "A6UBH15PNQ"
+          searchKey = "653d25e2144870bdd7516c6cff4550cc"
       [languages.zh-tw.params.home]
         rss = 10
         [languages.zh-tw.params.home.profile]
