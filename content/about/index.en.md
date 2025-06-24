@@ -16,7 +16,7 @@ math:
   <img src="/images/avatar.png" style="width: 150px; border-radius: 50%;">
 </div>
 
-I’m *Laurance Lin*, currently a third-year undergraduate at National Taiwan University, majoring in Information Management with a secondary focus on Economics. I’m particularly interested in the application of machine learning and econometric techniques to problems in quantitative finance and business analytics.
+I’m *Laurance Lin*, currently a third-year undergraduate at National Taiwan University, majoring in Information Management with a secondary focus on Economics. I’m particularly interested in the application of machine learning and econometric techniques to problems in quantitative finance and business analytics. 
 
 ---
 
@@ -34,3 +34,4 @@ Honors: Mayor’s Award (Graduated first in class)
 
 ---
 
+I’d love to discuss ideas or potential collaborations — feel free to reach out via [LinkedIn](https://linkedin.com/in/LauranceLin) or [email](mailto:b11705050@ntu.edu.tw).
