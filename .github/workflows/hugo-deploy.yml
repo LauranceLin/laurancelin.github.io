@@ -40,7 +40,7 @@ jobs:
         run: npm install --no-save hugo-algolia
 
       - name: Push Algolia Index
-        run: npx hugo-algolia --toml  --config hugo.toml
+        run: npx hugo-algolia index --toml  --config hugo.toml
         env:
           HUGO_ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
           HUGO_ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_WRITE_KEY }}
