@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Laurance Lin</title>
-    <link>http://localhost:56682/categories/</link>
+    <link>http://localhost:56910/categories/</link>
     <description>Recent content in Categories on Laurance Lin</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 24 Jun 2025 17:12:04 +0800</lastBuildDate>
-    <atom:link href="http://localhost:56682/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56910/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>POV</title>
-      <link>http://localhost:56682/categories/pov/</link>
+      <link>http://localhost:56910/categories/pov/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56682/categories/pov/</guid>
+      <guid>http://localhost:56910/categories/pov/</guid>
       <description></description>
     </item>
   </channel>
