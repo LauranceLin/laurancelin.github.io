@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Laurance Lin</title>
-    <link>http://localhost:56471/tags/</link>
+    <link>http://localhost:56682/tags/</link>
     <description>Recent content in Tags on Laurance Lin</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 21:38:41 +0800</lastBuildDate>
-    <atom:link href="http://localhost:56471/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2025 17:12:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:56682/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Antitrust</title>
-      <link>http://localhost:56471/tags/antitrust/</link>
+      <link>http://localhost:56682/tags/antitrust/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56471/tags/antitrust/</guid>
+      <guid>http://localhost:56682/tags/antitrust/</guid>
       <description></description>
     </item>
     <item>
       <title>Artificial Intelligence</title>
-      <link>http://localhost:56471/tags/artificial-intelligence/</link>
+      <link>http://localhost:56682/tags/artificial-intelligence/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56471/tags/artificial-intelligence/</guid>
+      <guid>http://localhost:56682/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Big Tech</title>
-      <link>http://localhost:56471/tags/big-tech/</link>
+      <link>http://localhost:56682/tags/big-tech/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56471/tags/big-tech/</guid>
+      <guid>http://localhost:56682/tags/big-tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Generative AI</title>
-      <link>http://localhost:56471/tags/generative-ai/</link>
+      <link>http://localhost:56682/tags/generative-ai/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56471/tags/generative-ai/</guid>
+      <guid>http://localhost:56682/tags/generative-ai/</guid>
       <description></description>
     </item>
     <item>
       <title>LLM</title>
-      <link>http://localhost:56471/tags/llm/</link>
+      <link>http://localhost:56682/tags/llm/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56471/tags/llm/</guid>
+      <guid>http://localhost:56682/tags/llm/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,71 +2,71 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:56471/google_and_antitrust_law/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:56682/google_and_antitrust_law/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="http://localhost:56471/zh-tw/google_and_antitrust_law/"
+                        href="http://localhost:56682/zh-tw/google_and_antitrust_law/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:56471/google_and_antitrust_law/"
+                    href="http://localhost:56682/google_and_antitrust_law/"
                     /></url><url>
-            <loc>http://localhost:56471/about/</loc><lastmod>2025-06-24T01:30:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:56682/about/</loc><lastmod>2025-06-24T01:30:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="http://localhost:56471/zh-tw/about/"
+                        href="http://localhost:56682/zh-tw/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:56471/about/"
+                    href="http://localhost:56682/about/"
                     /></url><url>
-            <loc>http://localhost:56471/</loc><lastmod>2025-06-24T01:30:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:56682/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="http://localhost:56471/zh-tw/"
+                        href="http://localhost:56682/zh-tw/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:56471/"
+                    href="http://localhost:56682/"
                     /></url><url>
-            <loc>http://localhost:56471/tags/antitrust/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:56471/tags/artificial-intelligence/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:56471/tags/big-tech/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:56471/categories/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:56682/tags/antitrust/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:56682/tags/artificial-intelligence/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:56682/tags/big-tech/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:56682/categories/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="http://localhost:56471/zh-tw/categories/"
+                        href="http://localhost:56682/zh-tw/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:56471/categories/"
+                    href="http://localhost:56682/categories/"
                     /></url><url>
-            <loc>http://localhost:56471/tags/generative-ai/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:56471/tags/llm/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:56471/posts/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:56682/tags/generative-ai/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:56682/tags/llm/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:56682/posts/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="http://localhost:56471/zh-tw/posts/"
+                        href="http://localhost:56682/zh-tw/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:56471/posts/"
+                    href="http://localhost:56682/posts/"
                     /></url><url>
-            <loc>http://localhost:56471/categories/pov/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:56682/categories/pov/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="http://localhost:56471/zh-tw/categories/pov/"
+                        href="http://localhost:56682/zh-tw/categories/pov/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:56471/categories/pov/"
+                    href="http://localhost:56682/categories/pov/"
                     /></url><url>
-            <loc>http://localhost:56471/tags/</loc><lastmod>2025-06-23T21:38:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:56682/tags/</loc><lastmod>2025-06-24T17:12:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="http://localhost:56471/zh-tw/tags/"
+                        href="http://localhost:56682/zh-tw/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:56471/tags/"
+                    href="http://localhost:56682/tags/"
                     /></url></urlset>

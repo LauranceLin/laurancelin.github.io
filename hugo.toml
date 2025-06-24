@@ -491,9 +491,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        Email = "b11705050@ntu.edu.tw"
-        Linkedin = "LauranceLin"
         GitHub = "LauranceLin"
+        Linkedin = "LauranceLin"
+        Medium = "laurance0410"
+        Email = "b11705050@ntu.edu.tw"
         RSS = true
 
   [languages.zh-tw]
@@ -553,7 +554,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.zh-tw.params.social]
-        Email = "b11705050@ntu.edu.tw"
-        Linkedin = "LauranceLin"
         GitHub = "LauranceLin"
+        Linkedin = "LauranceLin"
+        Medium = "laurance0410"
+        Email = "b11705050@ntu.edu.tw"
         RSS = true

@@ -6,6 +6,7 @@ description: "About Laurance Lin"
 images: [""]
 
 lightgallery: true
+disable_comments: true
 
 math:
   enable: true
