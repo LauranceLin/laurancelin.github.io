@@ -12,9 +12,6 @@ resources:
 - name: "featured-image"
   src: "image.png"
 
-tags: ["Artificial Intelligence", "Big Tech", "Generative AI", "LLM", "Antitrust"]
-categories: ["POV"]
-
 lightgallery: true
 
 toc:

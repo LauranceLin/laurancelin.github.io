@@ -12,6 +12,8 @@ enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
 
+disableKinds = ["taxonomy", "term"]
+
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [pagination]
@@ -28,24 +30,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     name = "Posts"
     url = "/posts/"
     title = ""  # title will be shown when you hover on this menu link
-
-  [[menu.main]]
-    weight = 2
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-
-  [[menu.main]]
-    weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
 
 [params]
   defaultTheme = "auto" # site default theme ["auto", "light", "dark"]
@@ -428,9 +412,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [outputs] # Options to make hugo output files
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
+  page = ["HTML", "MarkDown"]
 
 [languages]
   [languages.en]
@@ -450,14 +433,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.en.menu.main]]
         weight = 2
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 3
         identifier = "about"
         pre = ""
         post = ""
@@ -513,14 +488,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.zh-tw.menu.main]]
         weight = 2
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "類別"
-        url = "/categories/"
-        title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 3
         identifier = "about"
         pre = ""
         post = ""
