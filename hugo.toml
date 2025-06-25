@@ -431,14 +431,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "Posts"
         url = "/posts/"
         title = ""
-      [[languages.en.menu.main]]
-        weight = 2
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
     [languages.en.params]
       [languages.en.params.search]
         enable = true
@@ -486,18 +478,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "所有文章"
         url = "/posts/"
         title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 2
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "關於"
-        url = "/about/"
-        title = ""
     [languages.zh-tw.params]
       [languages.zh-tw.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
         placeholder = "搜尋"
         maxResultLength = 10
