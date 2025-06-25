@@ -1,6 +1,6 @@
 ---
 title: "關於我"
-date: 2025-06-23T11:04:49+08:00
+date: 2025-06-23
 draft: false
 description: "關於 Laurance Lin"
 images: [""]
@@ -19,7 +19,6 @@ resources:
 我是 *Laurance Lin*，就讀於臺大資管系。我的研究興趣在於運用機器學習與計量方法來解決量化金融與商業分析領域中的實務問題。
 
 ---
-<h2 style="font-variant: small-caps;"> 學歷 </h2>
 
 <img src="/images/NTU.png" alt="NTU Logo" style="height:1.25em; vertical-align:middle; margin-right:0.5em;">**國立臺灣大學** 資訊管理學系管理學學士<br>
 2022 年至今<br>

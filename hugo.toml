@@ -431,6 +431,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "Posts"
         url = "/posts/"
         title = ""
+      [[languages.en.menu.main]]
+        weight = 2
+        identifier = "courses"
+        pre = ""
+        post = ""
+        name = "Courses"
+        url = "/courses/"
+        title = ""
     [languages.en.params]
       [languages.en.params.search]
         enable = true
@@ -475,8 +483,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         identifier = "posts"
         pre = ""
         post = ""
-        name = "所有文章"
+        name = "文章"
         url = "/posts/"
+        title = ""
+      [[languages.zh-tw.menu.main]]
+        weight = 2
+        identifier = "courses"
+        pre = ""
+        post = ""
+        name = "課程"
+        url = "/courses/"
         title = ""
     [languages.zh-tw.params]
       [languages.zh-tw.params.search]
