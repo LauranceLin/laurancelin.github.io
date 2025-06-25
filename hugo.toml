@@ -1,5 +1,4 @@
 baseURL = "https://laurancelin.github.io/"
-theme = "LoveIt"
 title = "Laurance Lin"
 
 defaultContentLanguage = "en"
@@ -247,7 +246,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         serverURLs = ""
         # emoji data file name, default is "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
-        # located in "themes/LoveIt/assets/lib/valine/emoji/" directory
+        # located in "assets/lib/valine/emoji/" directory
         # you can store your own data files in the same path under your project:
         # "assets/lib/valine/emoji/"
         emoji = ""
@@ -366,7 +365,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.cdn]
     # CDN data file name, disabled by default
     # ["jsdelivr.yml"]
-    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # located in "assets/data/cdn/" directory
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
     data = "jsdelivr.yml"

@@ -1,13 +1,13 @@
-# Translations for Simplified Chinese
-# 简体中文的翻译
+# Translations for Traditional Chinese
+# 繁體中文的翻譯
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # === baseof ==
 [backToTop]
-other = "回到顶部"
+other = "回到頂部"
 
 [viewComments]
-other = "查看评论"
+other = "查看評論"
 # === baseof ==
 
 # === Post ===
@@ -20,16 +20,16 @@ other = "文章"
 other = "所有{{ .Some }}"
 
 [tag]
-other = "标签"
+other = "標籤"
 
 [tags]
-other = "标签"
+other = "標籤"
 
 [category]
-other = "分类"
+other = "分類"
 
 [categories]
-other = "分类"
+other = "分類"
 # === Taxonomy ===
 
 # === Pagination ===
@@ -39,32 +39,29 @@ other = "更多"
 
 # === partials/header.html ===
 [selectLanguage]
-other = "选择语言"
+other = "選擇語言"
 
 [switchTheme]
-other = "切换主题"
+other = "切換主題"
 # === partials/header.html ===
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "由 {{ .Hugo }} 强力驱动 | 主题 - {{ .Theme }}"
+other = "由 {{ .Hugo }} 驅動"
 # === partials/footer.html ===
 
 # === partials/comment.html ===
 [valineLang]
-other = "zh-CN"
+other = "zh-TW"
 
 [valinePlaceholder]
-other = "你的评论 ..."
+other = "你的評論 ..."
 
 [facebookLanguageCode]
-other = "zh_CN"
-
-[giscusLang]
-other = "zh-CN"
+other = "zh_TW"
 
 [walineLang]
-other = "zh-CN"
+other = "zh-TW"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -72,7 +69,7 @@ other = "zh-CN"
 other = "搜索"
 
 [searchPlaceholder]
-other = "搜索文章标题或内容..."
+other = "搜索文章標題或內容..."
 
 [clear]
 other = "清空"
@@ -81,7 +78,7 @@ other = "清空"
 other = "取消"
 
 [noResultsFound]
-other = "没有找到结果"
+other = "沒有找到結果"
 
 [lunrLanguageCode]
 other = "zh"
@@ -93,10 +90,10 @@ other = "lib/lunr/lunr.zh.js"
 other = "lib/lunr/lunr.segmentit.js"
 
 [copyToClipboard]
-other = "复制到剪贴板"
+other = "複製到剪貼板"
 
 [cookieconsentMessage]
-other = "本网站使用 Cookies 来改善您的浏览体验."
+other = "本網站使用 Cookies 來改善您的瀏覽體驗."
 
 [cookieconsentDismiss]
 other = "同意"
@@ -112,48 +109,48 @@ other = "分享到"
 
 # === posts/single.html ===
 [contents]
-other = "目录"
+other = "目錄"
 
 [publishedOnDate]
-other = "发布于 {{ .Date }}"
+other = "發佈於 {{ .Date }}"
 
 [includedInCategories]
-other = "收录于 {{ .Categories }}"
+other = "收錄於 {{ .Categories }}"
 
 [wordCount]
-other = "约 {{ .Count }} 字"
+other = "約 {{ .Count }} 字"
 
 [readingTime]
-other = "预计阅读 {{ .Count }} 分钟"
+other = "預計閱讀 {{ .Count }} 分鐘"
 
 [views]
-other = "次阅读"
+other = "次閱讀"
 
 [author]
 other = "作者"
 
 [updatedOnDate]
-other = "更新于 {{ .Date }}"
+other = "更新於 {{ .Date }}"
 
 [readMarkdown]
-other = "阅读原始文档"
+other = "閱讀原始文檔"
 
 [back]
 other = "返回"
 
 [home]
-other = "主页"
+other = "主頁"
 
 [readMore]
-other = "阅读全文"
+other = "閱讀全文"
 # === posts/single.html ===
 
 # === 404.html ===
 [pageNotFound]
-other = "页面没找到"
+other = "頁面沒找到"
 
 [pageNotFoundText]
-other = "抱歉，您要查找的页面不存在。"
+other = "抱歉，您要查找的頁面不存在。"
 # === 404.html ===
 
 # === shortcodes/admonition.html ===
@@ -173,16 +170,16 @@ other = "技巧"
 other = "成功"
 
 [question]
-other = "问题"
+other = "問題"
 
 [warning]
 other = "警告"
 
 [failure]
-other = "失败"
+other = "失敗"
 
 [danger]
-other = "危险"
+other = "危險"
 
 [bug]
 other = "Bug"
@@ -193,17 +190,3 @@ other = "示例"
 [quote]
 other = "引用"
 # === shortcodes/admonition.html ===
-
-# === shortcodes/version.html ===
-[new]
-other = "新增"
-
-[changed]
-other = "更改"
-
-[deleted]
-other = "删除"
-
-[deprecated]
-other = "弃用"
-# === shortcodes/version.html ===

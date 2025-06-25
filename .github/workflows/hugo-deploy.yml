@@ -22,7 +22,7 @@ jobs:
       - name: Checkout Code # 步驟 1: 下載您的儲存庫程式碼
         uses: actions/checkout@v4
         with:
-          submodules: false # 設為 false，因為您是直接複製 LoveIt 主題，沒有用 submodule
+          submodules: false # 設為 false，因為您沒有用 submodule
           fetch-depth: 0    # 獲取所有 Git 歷史記錄，有助於一些 Hugo 功能
 
       - name: Setup Hugo # 步驟 2: 設定 Hugo 環境

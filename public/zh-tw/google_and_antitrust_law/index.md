@@ -1,7 +1,7 @@
 # 科技巨擘的博弈：Google、反壟斷法與生成式 AI
 
 
-本文最初發佈在 [Medium](https://medium.com/@laurance0410/科技巨擘的博弈-google-反壟斷法與生成式-ai-6ce1d4f4122b).
+本文最初發佈在 [Medium](https://medium.com/@laurance0410/科技巨擘的博弈-google-反壟斷法與生成式-ai-6ce1d4f4122b)。
 
 今年 5 月 21 日，Google 執行長桑德爾·皮查伊（Sundar Pichai）在年度開發者大會「Google I/O 2025」上公布了多項 AI 領域的重大進展。除了發布 Gemini 2.5、Veo 3、Imagen 4 等關鍵模型的升級版本以外，Google 也正式宣示將 AI 深度整合進既有核心服務，如導入 AI 模式的 Google 搜尋，以及強化 Gmail 中的個人化智慧回覆功能等。
 
