@@ -48,7 +48,9 @@ math:
   <div><strong>學習科學</strong>（選修課程）</div>
   <div>2024</div>
 </div>
-講者
+<div style="margin-top:0;">
+  講者｜<a href="/courses/LS_theory.pdf">[簡報]</a> <a href="/courses/LS_logic_design.pdf">[學習實驗簡報]</a>
+</div>
 
 ---
 

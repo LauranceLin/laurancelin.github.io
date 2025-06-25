@@ -48,7 +48,9 @@ Teaching Assistant for Prof. Ling-Chieh Kung, Prof. Chia-Wei Kuo, and Prof. Ji
   <div><strong>Learning Sciences</strong> (Elective)</div>
   <div>2024</div>
 </div>
-Instructor 
+<div style="margin-top:0;">
+  Instructor | <a href="/courses/LS_theory.pdf">[Slide (Madarin)]</a> <a href="/courses/LS_logic_design.pdf">[Slide for Learning Test (Madarin)]</a>
+</div>
 
 ---
 
