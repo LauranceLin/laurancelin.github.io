@@ -1,5 +1,5 @@
 ---
-title: "課程"
+title: "所有課程"
 date: 2025-06-25
 draft: false
 description: ""

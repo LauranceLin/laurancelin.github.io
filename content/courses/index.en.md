@@ -1,5 +1,5 @@
 ---
-title: "Courses"
+title: "All Courses"
 date: 2025-06-25
 draft: false
 description: ""
